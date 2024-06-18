@@ -10,7 +10,7 @@ export default function SignUp() {
   const handleChange = (e) => {
     setFormData({
       ...formData,
-      [e.target.id]: e.target.value,
+       [e.target.id]: e.target.value,
     });
   };
   const handleSubmit = async (e) => {
@@ -71,7 +71,7 @@ export default function SignUp() {
         >
           {loading ? 'Loading...' : 'Sign Up'}
         </button>
-        <OAuth/>
+        <OAuth />
       </form>
       <div className='flex gap-2 mt-5'>
         <p>Have an account?</p>

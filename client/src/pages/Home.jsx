@@ -5,6 +5,7 @@ import { Navigation } from 'swiper/modules';
 import SwiperCore from 'swiper';
 import 'swiper/css/bundle';
 import ListingItem from '../components/ListingItem';
+import h1 from '../images/h2.avif';
 
 export default function Home() {
   const [offerListings, setOfferListings] = useState([]);
@@ -85,7 +86,6 @@ export default function Home() {
             </SwiperSlide>
           ))}
       </Swiper>
-
       {/* listing results for offer, sale and rent */}
 
       <div className='max-w-6xl mx-auto p-3 flex flex-col gap-8 my-10'>
